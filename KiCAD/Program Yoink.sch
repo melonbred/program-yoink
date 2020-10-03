@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Program Yoink-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
@@ -2081,7 +2080,7 @@ EncS1
 Text GLabel 15550 1350 0    39   Input ~ 0
 EncS2
 $Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB1
+L Program-Yoink-rescue:HRO-TYPE-C-31-M-12-Type-C USB1
 U 1 1 5F7EBCC9
 P 6200 8700
 F 0 "USB1" H 6033 9497 60  0000 C CNN
@@ -2160,7 +2159,7 @@ D-
 Text GLabel 7950 8700 2    50   Input ~ 0
 D+
 $Comp
-L random-keyboard-parts:PRTR5V0U2X U2
+L Program-Yoink-rescue:PRTR5V0U2X-random-keyboard-parts U2
 U 1 1 5F89C082
 P 7250 9050
 F 0 "U2" H 7250 9347 60  0000 C CNN

@@ -1,5 +1,6 @@
 (sym_lib_table
-  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "/Users/melonbred/Documents/GitHub/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
-  (lib (name random-keyboard-parts)(type Legacy)(uri "/Users/melonbred/Documents/GitHub/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
-  (lib (name Type-C)(type Legacy)(uri /Users/melonbred/Documents/GitHub/Type-C.pretty/Type-C.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "/Home/melonbred/Documents/GitHub/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "/Home/melonbred/Documents/GitHub/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri /Home/melonbred/Documents/GitHub/Type-C.pretty/Type-C.lib)(options "")(descr ""))
+  (lib (name Program-Yoink-rescue)(type Legacy)(uri "${KIPRJMOD}/Program Yoink-rescue.lib")(options "")(descr ""))
 )
