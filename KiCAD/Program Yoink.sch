@@ -1640,7 +1640,7 @@ Wire Wire Line
 Wire Wire Line
 	13050 5900 13050 6000
 Wire Wire Line
-	11350 6000 12200 6000
+	11350 6000 11750 6000
 Connection ~ 13050 6000
 Wire Wire Line
 	13050 6000 13900 6000
@@ -1668,41 +1668,18 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14850 5225 50  0001
 	1    14750 5600
 	1    0    0    -1  
 $EndComp
-$Comp
-L LED:WS2812B RGB6
-U 1 1 5F8B255C
-P 15600 5600
-F 0 "RGB6" H 15850 5850 50  0000 L CNN
-F 1 "WS2812B" H 15850 5750 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 15650 5300 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 15700 5225 50  0001 L TNN
-	1    15600 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14200 5600 14450 5600
-Wire Wire Line
-	15050 5600 15300 5600
-Wire Wire Line
-	15600 5300 15600 5200
-Wire Wire Line
-	15600 5200 14750 5200
 Connection ~ 13900 5200
 Wire Wire Line
 	14750 5300 14750 5200
-Connection ~ 14750 5200
 Wire Wire Line
 	14750 5200 13900 5200
 Wire Wire Line
 	13900 6000 14750 6000
-Wire Wire Line
-	15600 6000 15600 5900
 Connection ~ 13900 6000
 Wire Wire Line
 	14750 5900 14750 6000
-Connection ~ 14750 6000
-Wire Wire Line
-	14750 6000 15600 6000
 $Comp
 L power:+5V #PWR0101
 U 1 1 5F99F55A
@@ -2080,17 +2057,6 @@ EncS1
 Text GLabel 15550 1350 0    39   Input ~ 0
 EncS2
 $Comp
-L Program-Yoink-rescue:HRO-TYPE-C-31-M-12-Type-C USB1
-U 1 1 5F7EBCC9
-P 6200 8700
-F 0 "USB1" H 6033 9497 60  0000 C CNN
-F 1 "HRO-TYPE-C-31-M-12" H 6033 9391 60  0000 C CNN
-F 2 "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" H 6200 8700 60  0001 C CNN
-F 3 "" H 6200 8700 60  0001 C CNN
-	1    6200 8700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR0112
 U 1 1 5F7ED9FA
 P 7150 8250
@@ -2348,4 +2314,42 @@ Wire Notes Line width 20
 	8600 6500 8600 4800
 Text Notes 10250 6400 2    98   Italic 20
 ROTARY ENCODER
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5F875FAC
+P 6300 9650
+F 0 "J?" V 6172 9730 50  0000 L CNN
+F 1 "Conn_01x01" V 6263 9730 50  0000 L CNN
+F 2 "" H 6300 9650 50  0001 C CNN
+F 3 "~" H 6300 9650 50  0001 C CNN
+	1    6300 9650
+	0    1    1    0   
+$EndComp
+$Comp
+L Program-Yoink-rescue:HRO-TYPE-C-31-M-12-Type-C USB1
+U 1 1 5F7EBCC9
+P 6200 8700
+F 0 "USB1" H 6033 9497 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 6033 9391 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" H 6200 8700 60  0001 C CNN
+F 3 "" H 6200 8700 60  0001 C CNN
+	1    6200 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 9350 6300 9450
+$Comp
+L power:GND #PWR?
+U 1 1 5F8BD8B4
+P 11750 6000
+F 0 "#PWR?" H 11750 5750 50  0001 C CNN
+F 1 "GND" H 11755 5827 50  0000 C CNN
+F 2 "" H 11750 6000 50  0001 C CNN
+F 3 "" H 11750 6000 50  0001 C CNN
+	1    11750 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 11750 6000
+Wire Wire Line
+	11750 6000 12200 6000
 $EndSCHEMATC
