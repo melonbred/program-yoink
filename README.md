@@ -1,6 +1,6 @@
 # Program Yoink!
 
-This PCB is for a 12u main cluster with exploded arrow cluster, macro column and rotary encoder support. 
+This PCB is for a 12u main cluster with exploded arrow cluster, macro column and rotary encoder support. Progam Yoink! was a collaborative project with Steve Laroo, P3D Store, and Keybage. 
 
 - Big bar and split bar support
 - MX switch support only
